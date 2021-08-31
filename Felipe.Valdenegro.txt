@@ -1,42 +1,80 @@
 
-https://codepen.io/FelipeVald/pen/dyRMyjN?editors=1100
+Link to the finished codepen: https://codepen.io/FelipeVald/pen/dyRMyjN?editors=1100
 
-    1. What is Semantic HTML? gives HTML a meaing for the browser and developers
-    2. What is HTML used for? building webpages, like a skeleton
-    3. What is an attribute and where do we put it? an attribute provide more info on HTML properties, example <a href="link"> href is the attribute. gives meaning to the <a> tag
-    4. What is the h1 tag used for? How many times should I use it on a page? h1 tag is used for the heading of the page, like a headline, h1 should be used only once.
-    5. Name two tags that have required attributes: Style; Img; Link
-    6. What do we put in the head of our HTML document? <!DOCTYPE html><head>
-    7. What is an id? It is used to specify a name for an HTML element. example <h1 id="title">
-    8. What elements can I add an id to? All HTML elements
-    9. How many times can I use the same id on a page? Once. Each id must be unique.
-    10. What is a class? like an id, used to give html element a name. classes can be shared, can belong to more than one class
-    11. What elements can I add a class to?  like the id, it can be added to all HTML elements
-    12. How many times can I use the same class on a page? no technical lmit, can be used infinitely
-    13. How do I get my link to open in a new tab? target="_blank" to the anchor tag.
-    14. What is the alt attribute in the image tag used for? IT gives it purpose, helps SEO, helps screen readers
-    15. How do I reference an id? <a href ="#ID>  With the #
-    16. What is the difference between a section and a div,  Section the content inside is grouped, div is for bigger sections
-    17. What is CSS used for? Used to style webpages
-    18. How to we select an element? Example - every h2 on the page 
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    1. What is Semantic HTML? 
+    Gives HTML a meaning for the browser and developers
+    2. What is HTML used for? 
+    Building webpages, like a skeleton
+    3. What is an attribute and where do we put it? 
+    An attribute provide more info on HTML properties, example <a href="link"> href is the attribute. gives meaning to the <a> tag
+    4. What is the h1 tag used for? 
+    How many times should I use it on a page? h1 tag is used for the heading of the page, like a headline, h1 should be used only once.
+    5. Name two tags that have required attributes: 
+    Style; Img; Link
+    6. What do we put in the head of our HTML document? 
+    <!DOCTYPE html><head>
+    7. What is an id?
+     It is used to specify a name for an HTML element. example <h1 id="title">
+    8. What elements can I add an id to? 
+    All HTML elements
+    9. How many times can I use the same id on a page? 
+    Once. Each id must be unique.
+    10. What is a class? 
+    like an id, used to give html element a name. classes can be shared, can belong to more than one class
+    11. What elements can I add a class to?  
+    like the id, it can be added to all HTML elements
+    12. How many times can I use the same class on a page? 
+    no technical limit, can be used infinitely
+    13. How do I get my link to open in a new tab? 
+    target="_blank" to the anchor tag.
+    14. What is the alt attribute in the image tag used for? 
+    IT gives it purpose, helps SEO, helps screen readers
+    15. How do I reference an id? 
+    <a href ="#ID">  With the #
+    16. What is the difference between a section and a div,
+      Section the content inside is grouped, div is for bigger sections
+    17. What is CSS used for? 
+    Used to style webpages
+    18. How to we select an element? 
+    Example - every h2 on the page 
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one 
+    id is used for one html element and class is used for more
     20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
+    write a period (.) character followed by the name of the class 
+    21. How do we select a p element with a single class of “human””? 
+    p .human {}
     22. What is a parent child selector? When would this be useful? 
+    The parent > child selector selects all elements that are a direct child of the specified element.
     23. How do you select all links within a div with the class of sidebar?
+    a .sidebar
     24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
+    used to add style to selectors, such as hover to add functionality 
+    25. What do we use the change the spacing between lines? 
+    line-height:1.5; example
     26. What do we use to change the spacing between letters?
+    letter-spacing:1px; example
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    uppercase, lowercase and capitalize
     28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px black dotted;
+    }
     29. How do I select everything on the page? 
+    * {} asterisk
     30. How do I write a comment in CSS?
+    write inside /* */
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd print working directory 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git rm 
     34. Why should I use version control? 
-    35. How often should I commit to github? every 20 minutes
+    it allows you to keep track of changes made to your code over time 
+    35. How often should I commit to github? 
+    every 20 minutes, otherwise very often 
     36. What is the command we would use to push our repo up to github? 
+    git push
     37. Walk me through Lambda's git flow. git add, git commit -m "Comment", git push
 
 
